@@ -37,6 +37,7 @@ export default {
       letterSpacing: {
         tagline: ".15em",
       },
+
     },
   },
   plugins: [
@@ -51,10 +52,18 @@ export default {
           "@apply scroll-smooth text-[62.5%]": {},
         },
 
+        "body": {
+          "@apply bg-gradient-to-tl from-n-1 to-n-3": {},
+        },
+
         ".container": {
           "@apply mx-auto px-[15px] md:w-[750px] min-[992px]:w-[970px] min-[1200px]:w-[1170px]":
             {},
         },
+
+        ".activeLink": {
+          "@apply border-b-2 border-n-4": {},
+        }
       });
     }),
   ],

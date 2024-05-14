@@ -5,7 +5,7 @@ import Robot from "../assets/robot.svg"
 
 const Home = () => {
     return (
-        <section id="Landing" className="bg-n-1 h-[calc(100vh_-_82px)] flex justify-center items-center relative">
+        <section id="Landing" className="h-[calc(100vh_-_82px)] flex justify-center items-center relative">
             <div className="text-center text-[white] h-full w-[590px] z-[100] max-[500px]:flex flex-col justify-center items-center">
                 <h1 className="text-[4.7rem] leading-[1.6] max-[500px]:text-7xl max-[500px]:leading-[1.4] font-bold">
                     منوفر وقتك الضائع على الأشياء الغير مهمة
