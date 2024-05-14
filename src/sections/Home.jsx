@@ -18,11 +18,11 @@ const Home = () => {
                     <img className="w-full h-[260px]" src={Robot} alt />
                 </div>
             </div>
-            <div className="left">
+            <div className="max-[767px]:hidden">
                 <img className="inline absolute rotate-90 translate-x-5 left-0 -bottom-[18px]" src={Leaft} alt />
             </div>
             <div className="right">
-                <img className="inline absolute right-0 bottom-0" src={Leaft} alt />
+                <img className="inline absolute right-0 bottom-0 max-[767px]:w-[215px] max-[767px]:top-[-9px] max-[767px]:-rotate-90 max-[767px]:right-4 max-[767px]:bottom-auto" src={Leaft} alt />
             </div>
         </section>
     )
