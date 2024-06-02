@@ -53,7 +53,7 @@ export default {
         },
 
         "body": {
-          "@apply bg-gradient-to-tl from-n-1 to-n-3": {},
+          "@apply bg-gradient-to-tl from-n-1 to-n-3 overflow-x-hidden": {},
         },
 
         ".container": {
@@ -67,4 +67,5 @@ export default {
       });
     }),
   ],
+  important: true,
 };

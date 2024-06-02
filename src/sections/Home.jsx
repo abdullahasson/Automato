@@ -19,10 +19,10 @@ const Home = () => {
                 </div>
             </div>
             <div className="max-[767px]:hidden">
-                <img className="inline absolute rotate-90 translate-x-5 left-0 -bottom-[18px]" src={Leaft} alt />
+                <img data-aos="fade-right" className="inline absolute rotate-90 translate-x-5 left-0 -bottom-[18px]" src={Leaft} alt />
             </div>
             <div className="right">
-                <img className="inline absolute right-0 bottom-0 max-[767px]:w-[215px] max-[767px]:top-[-9px] max-[767px]:-rotate-90 max-[767px]:right-4 max-[767px]:bottom-auto max-[482px]:-top-[67px] max-[482px]:z-[-1]" src={Leaft} alt />
+                <img data-aos="zoom-in-left" className="inline absolute right-0 bottom-0 max-[767px]:w-[215px] max-[767px]:top-[-9px] max-[767px]:-rotate-90 max-[767px]:right-4 max-[767px]:bottom-auto max-[482px]:-top-[67px] max-[482px]:z-[-1]" src={Leaft} alt />
             </div>
         </section>
     )
