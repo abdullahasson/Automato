@@ -13,7 +13,7 @@ const Home = () => {
                 <p className="text-[2rem] leading-[1.6] mt-[1.1rem] mb-[1.3rem] max-[500px]:text-[18px] max-[500px]:my-[20px] max-[482px]:px-[28px]">
                     حقق أفضل استثمار لوقت الموارد البشرية بشركتك عن طريق أتمتة المهمات الروتينية المملة من قبل مجموعة متخصصين في أتمتة<br /> العمليات السوفتوير
                 </p>
-                <Button>التواصل معنا</Button>
+                <Button href="#Contact" >التواصل معنا</Button>
                 <div className="photo">
                     <img className="w-full h-[260px]" src={Robot} alt />
                 </div>
