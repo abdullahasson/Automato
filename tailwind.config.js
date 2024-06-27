@@ -52,6 +52,14 @@ export default {
           "@apply scroll-smooth text-[62.5%]": {},
         },
 
+        "::-webkit-scrollbar": {
+          "@apply bg-n-1 w-2": {},
+        },
+
+        "::-webkit-scrollbar-thumb": {
+          "@apply bg-n-4": {},
+        },
+
         "body": {
           "@apply bg-gradient-to-tl from-n-1 to-n-3 overflow-x-hidden": {},
         },

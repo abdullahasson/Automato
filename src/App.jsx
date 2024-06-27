@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import Header from "./components/Header"
 import Home from "./sections/Home"
+import About from "./sections/About";
+import Contact from "./sections/Contact";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css'
@@ -39,6 +41,8 @@ function App() {
     <>
       <Header />
       <Home />
+      <About />
+      <Contact />
     </>
   )
 }
